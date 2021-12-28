@@ -2,16 +2,20 @@
 var Fruit = 'Pera';
 
 //PROMPT
-var User = prompt ("Username");
+var User = prompt ('Username');
 
+var Age = prompt ('How old are you?');
 
 // Alert
 
-alert ("Your user is " + User); 
+alert ('Your username is '+ User +', you are '+ Age + ' years old'); 
+
+console.log("The User is " + User);
 
 
+// TITULO H1
 
-// titulo h1
-document.write("<h1>Lista de ingredientes</h1>")
+document.write('<h1>Lista de ingredientes</h1>');
+
 
 // . + CTRL + SPACE short cut 
