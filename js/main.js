@@ -1,25 +1,17 @@
 // Stream
-var fruit = 'Pera';
+var Fruit = 'Pera';
 
-//Numbers
-const NumberCien = 100;
-let number = 20;
+//PROMPT
+var User = prompt ("Username");
 
-//Boolean
-let EstoyDormido = false;
 
-let resultado = number*NumberCien;
+// Alert
 
-console.log (resultado);
+alert ("Your user is " + User); 
 
-let HorasExtras = true;
 
-if(HorasExtras){
-    alert('el codigo se ejecuta')
-    console.log ('esta falso')}
 
-let UserName = prompt ("Ingrese su usuario");
-
-if UserName ="" 
+// titulo h1
+document.write("<h1>Lista de ingredientes</h1>")
 
 // . + CTRL + SPACE short cut 
